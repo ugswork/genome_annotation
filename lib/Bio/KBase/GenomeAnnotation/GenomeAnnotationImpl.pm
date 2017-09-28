@@ -21819,6 +21819,7 @@ sub find_close_neighbors
 		    genome_name => $_->[2],
 		    analysis_method => "KmerAnnotationByFigfam::estimate_closest_genomes:$dataset_name" } foreach @$close;
 
+    print "CCCCCCCCCCCCCCCCC  closeness set to 1.0   ###########";
     #print "json encoded string of clist here"
 
     $return = $genomeTO;
